@@ -6,8 +6,8 @@ Interface between gaussian and xtb for ONIOM optimizations
 
 For xTB:
 
-+ [Current Python xTB interface](https://github.com/grimme-lab/xtb/blob/master/python/xtb.py) ;
-+ [xTB API documentation](https://xtb-docs.readthedocs.io/en/latest/dev_interface.html) ;
++ [Current Python xTB interface](https://github.com/grimme-lab/xtb/blob/master/python/xtb.py).
++ [xTB API documentation](https://xtb-docs.readthedocs.io/en/latest/dev_interface.html).
 
 For Gaussian:
 
