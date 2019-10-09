@@ -21,13 +21,15 @@ You also need to include MKL (check with you system administrator) and xTB in `$
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:</path/to/you/xtb/directory>/lib/
 ```
 
+(see the [current python xTB interface documentation](https://github.com/grimme-lab/xtb/blob/master/python/xtb.py) for more information).
+
 Then, in the gaussian input, use
 
 ```text
 #p opt external="/path/to/g2xtb_interface/interface.py"
 ```
 
-as the input line, and run gaussian normally (notice the quotes).
+as the input line (notice the quotes), and run gaussian normally.
 It will use the xTB GFN2 parametrization to perform the optimization (GFN 1 and GFN 0 are not [yet?] available).
 
 Note that you can set some options:
@@ -46,7 +48,7 @@ For example, to perform an optimization in water,
 #p opt external="/path/to/g2xtb_interface/interface.py -s h2o"
 ```
 
-It is also possible to use `External` in ONIOM, see the "Examples" section of the [`External` keyword](http://gaussian.com/external/).
+See [the examples](./examples/). It is also possible to use `External` in ONIOM, see the "Examples" section of the [`External` keyword](http://gaussian.com/external/).
 
 ## Links
 
