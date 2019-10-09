@@ -84,7 +84,7 @@ class GNF2(XTB):
 
         ``kwargs`` may be:
 
-        + ``max_iteration``
+        + ``max_iterations``
         + ``solvent``
         """
 
@@ -104,8 +104,6 @@ class GNF2(XTB):
             if coordinates.shape[0] != number_of_atoms:
                 raise XTBError('atoms_type and coordinates does not match')
 
-            coordinates = coordinates.flatten(order='F')
-
         # create output variables (! use Fortran order)
         energy = c_double(.0)
         dipole = np.zeros(3)
@@ -122,7 +120,7 @@ class GNF2(XTB):
             c_double(self.accuracy),
             c_double(self.temperature),
             c_bool(True),  # gradient
-            c_bool(False),
+            c_bool(True),
             c_int(max_iterations),
             solvent.encode('utf-8')
         )
@@ -162,7 +160,7 @@ class GNF2(XTB):
             'charges': charges,
             'dipole': dipole,
             'dipoles': dipoles,
-            'gradient': -gradient.T,
+            'gradient': gradient.T,
             'quadrupole': quadrupoles,
             'wbo': wiberg
         }

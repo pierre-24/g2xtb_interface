@@ -1,5 +1,5 @@
 """
-Interface between gaussian and xtb for ONIOM optimizations
+Interface between gaussian and xtb for geometry optimizations
 """
 
 __version__ = '0.1'
