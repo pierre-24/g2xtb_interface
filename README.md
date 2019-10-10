@@ -48,7 +48,15 @@ For example, to perform an optimization in water,
 #p opt external="/path/to/g2xtb_interface/interface.py -s h2o"
 ```
 
-See [the examples](./examples/). It is also possible to use `External` in ONIOM, see the "Examples" section of the [`External` keyword](http://gaussian.com/external/).
+It is also possible to use `External` in ONIOM, see the "Examples" section of the [`External` keyword](http://gaussian.com/external/):
+
+```text
+#p opt=nomicro oniom(m06/6-311+g(d):external="/home/pbeaujea/g2xtb_interface/interface.py")
+```
+
+The `opt=nomicro` is currently mandatory (since the interface does not [yet?] communicates the charges to Gaussian).
+
+See [the examples](./examples/) for some outputs.
 
 ## Links
 
