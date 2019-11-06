@@ -21,7 +21,7 @@ You also need to include MKL (check with you system administrator) and xTB in `$
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:</path/to/you/xtb/directory>/lib/
 ```
 
-(see the [current python xTB interface documentation](https://github.com/grimme-lab/xtb/blob/master/python/xtb.py) for more information).
+(see the [previous python xTB interface documentation](https://github.com/grimme-lab/xtb/blob/5258d7ae4a7ad9ad9ead17c652e1408f8f08b05c/python/xtb.py) for more information, work is in progress to use the latest one).
 
 Then, in the gaussian input, use
 
@@ -51,11 +51,13 @@ For example, to perform an optimization in water,
 It is also possible to use `External` in ONIOM, see the "Examples" section of the [`External` keyword](http://gaussian.com/external/):
 
 ```text
-#p opt=nomicro oniom(m06/6-311+g(d):external="/home/pbeaujea/g2xtb_interface/interface.py")
+#p opt=(nomicro,cartesian)
+oniom(m06/6-311+g(d):external="/home/pbeaujea/g2xtb_interface/interface.py")
 ```
 
 The `opt=nomicro` is currently mandatory (since the interface does not [yet?] communicates the charges to Gaussian).
-
+`cartesian` avoid troubles with the Berny algorithm (which happens with [very] large molecules, so you can remove it for small ones).
+molecules
 See [the examples](./examples/) for some outputs.
 
 ## Links
