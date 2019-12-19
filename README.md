@@ -1,6 +1,6 @@
 # `g2xtb_interface`
 
-Interface between Gaussian and xTB for geometry optimization, using the `external` keyword.
+Interface between Gaussian and xTB for geometry optimization, using the `external` keyword (and and the [official `xtb` python interface](https://github.com/grimme-lab/xtb/tree/master/python)).
 
 For convenience, the interface is written in Python 3.
 It only perform calculation with the GFN2 parametrization.
@@ -9,7 +9,7 @@ It only perform calculation with the GFN2 parametrization.
 
 1. Be sure to have a copy of [xTB](https://github.com/grimme-lab/xtb/) (in version 6.2.2) and Gaussian (this was tested with Gaussian 09 and 16). You will also need MKL (check with your system administrator, but version >= 2017 is required).
 1. Clone this repository.
-2. Install the requirements: `numpy`, `fortranformat` and the [official `xtb` interface](https://github.com/grimme-lab/xtb/tree/master/python), for example with pip: 
+2. Install the requirements: `numpy`, `fortranformat`, for example with pip: 
 
    ```bash
    pip3 install --user numpy fortranformat
@@ -21,10 +21,10 @@ It only perform calculation with the GFN2 parametrization.
 
 Before running a calculation (so, in your job script if you use a cluster), make sure that you have python 3 in the `$PATH` (if you use a virtualenv or pipenv, make sure you `source` it).
 
-You also need to include MKL (check with you system administrator) and xTB in `$LD_LIBRARY_PATH`: for the later, use
+You also need to include MKL (check with you system administrator) and the directory where `libxtb.so` is in `$LD_LIBRARY_PATH`: for the later, use
 
 ```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:</path/to/you/xtb/install/directory>/lib64/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/you/xtb/install/directory/lib64/
 ```
 
 Then, in the gaussian input, use
