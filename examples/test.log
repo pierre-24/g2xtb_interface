@@ -2,8 +2,8 @@
  Input=test.com
  Output=test.log
  Initial command:
- /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l1.exe "/home/pbeaujea/g2xtb_interface/tmp/Gau-16185.inp" -scrdir="/home/pbeaujea/g2xtb_interface/tmp/"
- Entering Link 1 = /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l1.exe PID=     16187.
+ /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l1.exe "/home/pbeaujea/g2xtb_interface/examples/Gau-18617.inp" -scrdir="/home/pbeaujea/g2xtb_interface/examples/"
+ Entering Link 1 = /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l1.exe PID=     18618.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2016,
             Gaussian, Inc.  All Rights Reserved.
@@ -77,7 +77,7 @@
  
  ******************************************
  Gaussian 16:  ES64L-G16RevA.03 25-Dec-2016
-                 9-Oct-2019 
+                19-Dec-2019 
  ******************************************
  ----------------------------------------------------------------------
  #p opt external="/home/pbeaujea/g2xtb_interface/interface.py -s h2o" n
@@ -100,7 +100,7 @@
  2/9=110,15=1/2;
  6/7=2,8=2,9=2,10=2/1;
  99//99;
- Leave Link    1 at Wed Oct  9 11:08:40 2019, MaxMem=           0 cpu:               0.0 elap:               0.0
+ Leave Link    1 at Thu Dec 19 14:00:21 2019, MaxMem=           0 cpu:               0.0 elap:               0.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l101.exe)
  -----
  Title
@@ -128,7 +128,7 @@
  NQMom=    2.0440000   0.0000000   0.0000000   0.0000000
  NMagM=    0.4037610   2.7928460   2.7928460   2.7928460
  AtZNuc=   7.0000000   1.0000000   1.0000000   1.0000000
- Leave Link  101 at Wed Oct  9 11:08:40 2019, MaxMem=   104857600 cpu:               0.4 elap:               0.4
+ Leave Link  101 at Thu Dec 19 14:00:22 2019, MaxMem=   104857600 cpu:               0.1 elap:               0.1
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -139,7 +139,7 @@
  Number of steps in this run=      2 maximum allowed number of steps=      2.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Wed Oct  9 11:08:40 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ Leave Link  103 at Thu Dec 19 14:00:22 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l202.exe)
                           Input orientation:                          
  ---------------------------------------------------------------------
@@ -163,7 +163,7 @@
  Deg. of freedom     2
  Full point group                 C3V     NOp   6
  Rotational constants (GHZ):         299.8402441         299.8402438         180.7441980
- Leave Link  202 at Wed Oct  9 11:08:41 2019, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ Leave Link  202 at Thu Dec 19 14:00:22 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l301.exe)
  Standard basis: STO-3G (5D, 7F)
  Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
@@ -177,19 +177,19 @@
  Integral buffers will be    131072 words long.
  Raffenetti 1 integral format.
  Two-electron integral symmetry is turned off.
- Leave Link  301 at Wed Oct  9 11:08:41 2019, MaxMem=   104857600 cpu:               0.1 elap:               0.2
+ Leave Link  301 at Thu Dec 19 14:00:22 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l402.exe)
  External calculation of energy and first derivatives.
  Running external command "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R"
-         input file       "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn"
-         output file      "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu"
-         message file     "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs"
-         fchk file        "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC"
-         mat. el file     "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+         input file       "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn"
+         output file      "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu"
+         message file     "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs"
+         fchk file        "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC"
+         mat. el file     "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -197,10 +197,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7    0.00000000  0.00000000 -0.11409159
- 1   -1.81728100  0.00000000  0.52840937
- 1    0.90864050 -1.57381151  0.52840937
- 1    0.90864050  1.57381151  0.52840937
+ 7        0.00000000      0.00000000     -0.11409159
+ 1       -1.81728100      0.00000000      0.52840937
+ 1        0.90864050     -1.57381151      0.52840937
+ 1        0.90864050      1.57381151      0.52840937
  ---------------------------------------
   
   Solvent             : h2o
@@ -212,25 +212,24 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
   HB correction              :  T
-    1     -4.4815520 -0.448155E+01  0.200E+00   12.26       0.0  T
-    2     -4.4824219 -0.869904E-03  0.118E+00   11.96       1.0  T
-    3     -4.4825227 -0.100858E-03  0.288E-01   11.72       1.0  T
-    4     -4.4825423 -0.195395E-04  0.450E-02   11.73       1.1  T
-    5     -4.4825424 -0.757640E-07  0.103E-02   11.72       4.9  T
-    6     -4.4825424 -0.787576E-07  0.119E-03   11.72      41.9  T
-    7     -4.4825424 -0.823448E-10  0.946E-05   11.72     528.5  T
-    8     -4.4825424 -0.579536E-11  0.144E-07   11.72  100000.0  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    1     -4.4822774 -0.448228E+01  0.193E+00   12.08       0.0  T
+    2     -4.4824813 -0.203902E-03  0.116E+00   11.91       1.0  T
+    3     -4.4825366 -0.553484E-04  0.135E-01   11.71       1.0  T
+    4     -4.4825423 -0.572215E-05  0.408E-02   11.72       1.2  T
+    5     -4.4825424 -0.106943E-06  0.349E-03   11.72      14.3  T
+    6     -4.4825424 -0.174304E-08  0.114E-03   11.72      43.7  T
+    7     -4.4825424 -0.472644E-10  0.764E-06   11.72    6545.4  T
+    8     -4.4825424 -0.976996E-14  0.202E-07   11.72  100000.0  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430185018201 Eh   ::
-          :: gradient norm               0.016652656274 Eh/α ::
-          :: HOMO-LUMO gap              11.720225795268 eV   ::
+          :: gradient norm               0.016652656440 Eh/α ::
+          :: HOMO-LUMO gap              11.720225790528 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -239,15 +238,15 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0     0.00001184  0.00000000  0.00155169
- 1    -0.00956886 -0.00000000 -0.00051402
- 2     0.00477851 -0.00827252 -0.00051884
- 3     0.00477851  0.00827252 -0.00051884
+ 0         0.00001184     -0.00000000      0.00155169
+ 1        -0.00956886      0.00000000     -0.00051402
+ 2         0.00477851     -0.00827252     -0.00051884
+ 3         0.00477851      0.00827252     -0.00051884
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
- Recovered energy= -4.43018501820     dipole=      0.000004258258      0.000000000000      0.684082662460
+ Recovered energy= -4.43018501820     dipole=      0.000004259615      0.000000003977      0.684082660769
  NRF= 0 NRA=   0 NVA=   4 HaveQM=F NVQ=       0
  Convergence limit is  0.750E-04 MaxStp= 10000 StMxLn= 3.00D-04 StpMin= 1.00D-06.
  Convergence criteria             0.00011250 0.00007500 0.00045000 0.00030000
@@ -256,7 +255,7 @@
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -264,10 +263,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00001184 -0.00000000 -0.11564328
- 1   -1.80771214  0.00000000  0.52892339
- 1    0.90386199 -1.56553899  0.52892821
- 1    0.90386199  1.56553899  0.52892821
+ 7       -0.00001184      0.00000000     -0.11564328
+ 1       -1.80771214     -0.00000000      0.52892339
+ 1        0.90386199     -1.56553899      0.52892821
+ 1        0.90386199      1.56553899      0.52892821
  ---------------------------------------
   
   Solvent             : h2o
@@ -279,7 +278,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -290,14 +288,14 @@
     4     -4.4847966 -0.584753E-05  0.404E-02   11.92       1.2  T
     5     -4.4847967 -0.104903E-06  0.354E-03   11.91      14.1  T
     6     -4.4847967 -0.193608E-08  0.112E-03   11.91      44.8  T
-    7     -4.4847967 -0.456133E-10  0.781E-06   11.91    6403.5  T
+    7     -4.4847967 -0.456124E-10  0.781E-06   11.91    6403.5  T
     8     -4.4847967 -0.115463E-13  0.163E-07   11.91  100000.0  T
-      SCC iter.                  ...        0 min,  0.002 sec
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430413396720 Eh   ::
-          :: gradient norm               0.011245858719 Eh/α ::
-          :: HOMO-LUMO gap              11.914548205294 eV   ::
+          :: total energy               -4.430413396721 Eh   ::
+          :: gradient norm               0.011245858666 Eh/α ::
+          :: HOMO-LUMO gap              11.914548207398 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -306,10 +304,10 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0     0.00000193 -0.00000000  0.00385288
- 1    -0.00596612  0.00000000 -0.00128488
- 2     0.00298210 -0.00516217 -0.00128400
- 3     0.00298210  0.00516217 -0.00128400
+ 0         0.00000193      0.00000000      0.00385288
+ 1        -0.00596612     -0.00000000     -0.00128488
+ 2         0.00298210     -0.00516217     -0.00128400
+ 3         0.00298210      0.00516217     -0.00128400
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
@@ -318,7 +316,7 @@
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -326,10 +324,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00003255 -0.00000000 -0.11835726
- 1   -1.79097576  0.00000000  0.52982242
- 1    0.89550415 -1.55106998  0.52983568
- 1    0.89550415  1.55106998  0.52983568
+ 7       -0.00003255      0.00000000     -0.11835726
+ 1       -1.79097575     -0.00000000      0.52982242
+ 1        0.89550415     -1.55106998      0.52983568
+ 1        0.89550415      1.55106998      0.52983568
  ---------------------------------------
   
   Solvent             : h2o
@@ -341,7 +339,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -351,15 +348,15 @@
     3     -4.4886659 -0.540927E-04  0.132E-01   12.25       1.0  T
     4     -4.4886713 -0.538925E-05  0.392E-02   12.27       1.3  T
     5     -4.4886714 -0.103677E-06  0.351E-03   12.26      14.2  T
-    6     -4.4886714 -0.166100E-08  0.106E-03   12.26      47.0  T
-    7     -4.4886714 -0.426219E-10  0.756E-06   12.26    6615.8  T
+    6     -4.4886714 -0.166101E-08  0.106E-03   12.26      47.0  T
+    7     -4.4886714 -0.426210E-10  0.756E-06   12.26    6615.8  T
     8     -4.4886714 -0.115463E-13  0.159E-07   12.26  100000.0  T
-      SCC iter.                  ...        0 min,  0.002 sec
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430571178713 Eh   ::
-          :: gradient norm               0.009547973270 Eh/α ::
-          :: HOMO-LUMO gap              12.261807852528 eV   ::
+          :: total energy               -4.430571178711 Eh   ::
+          :: gradient norm               0.009547976253 Eh/α ::
+          :: HOMO-LUMO gap              12.261808011372 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -368,19 +365,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00001697 -0.00000000  0.00822042
- 1     0.00060593  0.00000000 -0.00274903
- 2    -0.00029448  0.00051106 -0.00273570
- 3    -0.00029448 -0.00051106 -0.00273570
+ 0        -0.00001697      0.00000000      0.00822042
+ 1         0.00060593     -0.00000000     -0.00274903
+ 2        -0.00029448      0.00051106     -0.00273570
+ 3        -0.00029448     -0.00051106     -0.00273570
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-     3   0   0   F    T  4.16D+00 0.00822042 0.00275626 0.03631544 0.01321523   -4.4305712 ----
+     3   0   0   F    T  4.16D+00 0.00822042 0.00275626 0.03631545 0.01321524   -4.4305712 ----
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -388,10 +385,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7    0.00002184  0.00000000 -0.15467270
- 1   -1.78040309 -0.00000000  0.54196013
- 1    0.89019062 -1.54187649  0.54192455
- 1    0.89019062  1.54187649  0.54192455
+ 7        0.00002184     -0.00000000     -0.15467271
+ 1       -1.78040307     -0.00000000      0.54196014
+ 1        0.89019062     -1.54187647      0.54192455
+ 1        0.89019062      1.54187648      0.54192455
  ---------------------------------------
   
   Solvent             : h2o
@@ -403,7 +400,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -413,14 +409,14 @@
     3     -4.4871065 -0.494918E-04  0.115E-01   12.39       1.0  T
     4     -4.4871097 -0.312579E-05  0.365E-02   12.40       1.4  T
     5     -4.4871098 -0.102252E-06  0.304E-03   12.40      16.5  T
-    6     -4.4871098 -0.209261E-09  0.964E-04   12.40      51.9  T
-    7     -4.4871098 -0.373612E-10  0.533E-06   12.40    9372.4  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4871098 -0.209262E-09  0.964E-04   12.40      51.9  T
+    7     -4.4871098 -0.373621E-10  0.533E-06   12.40    9372.4  T
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430805208379 Eh   ::
-          :: gradient norm               0.001829083023 Eh/α ::
-          :: HOMO-LUMO gap              12.398316970447 eV   ::
+          :: total energy               -4.430805208404 Eh   ::
+          :: gradient norm               0.001829084006 Eh/α ::
+          :: HOMO-LUMO gap              12.398317236635 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -429,10 +425,10 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0     0.00005531 -0.00000000  0.00157055
- 1    -0.00016137  0.00000000 -0.00051112
- 2     0.00005303 -0.00010434 -0.00052971
- 3     0.00005303  0.00010434 -0.00052971
+ 0         0.00005531     -0.00000000      0.00157055
+ 1        -0.00016136      0.00000000     -0.00051112
+ 2         0.00005303     -0.00010433     -0.00052971
+ 3         0.00005303      0.00010433     -0.00052971
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
@@ -441,7 +437,7 @@
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -449,10 +445,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7    0.00003498  0.00000000 -0.16344696
- 1   -1.77784860 -0.00000000  0.54489275
- 1    0.88890681 -1.53965522  0.54484537
- 1    0.88890681  1.53965522  0.54484537
+ 7        0.00003498     -0.00000000     -0.16344697
+ 1       -1.77784859     -0.00000000      0.54489276
+ 1        0.88890680     -1.53965521      0.54484537
+ 1        0.88890680      1.53965521      0.54484537
  ---------------------------------------
   
   Solvent             : h2o
@@ -464,7 +460,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -474,14 +469,14 @@
     3     -4.4866425 -0.483623E-04  0.123E-01   12.41       1.0  T
     4     -4.4866472 -0.468907E-05  0.376E-02   12.43       1.3  T
     5     -4.4866473 -0.882223E-07  0.319E-03   12.43      15.7  T
-    6     -4.4866473 -0.820359E-09  0.946E-04   12.43      52.8  T
-    7     -4.4866473 -0.363229E-10  0.627E-06   12.43    7968.8  T
-      SCC iter.                  ...        0 min,  0.003 sec
+    6     -4.4866473 -0.820363E-09  0.946E-04   12.43      52.8  T
+    7     -4.4866473 -0.363212E-10  0.627E-06   12.43    7968.8  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430814963603 Eh   ::
-          :: gradient norm               0.000651965099 Eh/α ::
-          :: HOMO-LUMO gap              12.427387654296 eV   ::
+          :: total energy               -4.430814963615 Eh   ::
+          :: gradient norm               0.000651956188 Eh/α ::
+          :: HOMO-LUMO gap              12.427387924319 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -490,19 +485,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0     0.00006916  0.00000000 -0.00022407
- 1    -0.00037887  0.00000000  0.00009286
- 2     0.00015485 -0.00028403  0.00006560
- 3     0.00015485  0.00028403  0.00006560
+ 0         0.00006916     -0.00000000     -0.00022406
+ 1        -0.00037886      0.00000000      0.00009286
+ 2         0.00015485     -0.00028402      0.00006560
+ 3         0.00015485      0.00028402      0.00006560
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-     5   0   0   F    T  7.32D+01 0.00037887 0.00018821 0.03485297 0.01640820   -4.4308150 ----
+     5   0   0   F    T  7.32D+01 0.00037886 0.00018820 0.03485298 0.01640820   -4.4308150 ----
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -510,10 +505,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00498933 -0.00000000 -0.17153359
- 1   -1.74299563 -0.00000000  0.54628013
- 1    0.87399248 -1.51267243  0.54819499
- 1    0.87399248  1.51267243  0.54819499
+ 7       -0.00498935      0.00000014     -0.17153357
+ 1       -1.74299560     -0.00000001      0.54628012
+ 1        0.87399252     -1.51267248      0.54819502
+ 1        0.87399244      1.51267235      0.54819496
  ---------------------------------------
   
   Solvent             : h2o
@@ -525,7 +520,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -535,14 +529,14 @@
     3     -4.4930760 -0.470918E-04  0.127E-01   13.08       1.0  T
     4     -4.4930819 -0.588162E-05  0.364E-02   13.10       1.4  T
     5     -4.4930820 -0.774045E-07  0.356E-03   13.09      14.0  T
-    6     -4.4930820 -0.186652E-08  0.839E-04   13.09      59.6  T
-    7     -4.4930820 -0.304334E-10  0.852E-06   13.09    5869.6  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4930820 -0.186653E-08  0.839E-04   13.09      59.6  T
+    7     -4.4930820 -0.304379E-10  0.852E-06   13.09    5869.6  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430275394556 Eh   ::
-          :: gradient norm               0.024283056274 Eh/α ::
-          :: HOMO-LUMO gap              13.094336365274 eV   ::
+          :: total energy               -4.430275393520 Eh   ::
+          :: gradient norm               0.024283087027 Eh/α ::
+          :: HOMO-LUMO gap              13.094336810183 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -551,19 +545,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00504152 -0.00000000  0.00860686
- 1     0.01537378  0.00000000 -0.00426620
- 2    -0.00516613  0.00929570 -0.00217033
- 3    -0.00516613 -0.00929570 -0.00217033
+ 0        -0.00504155      0.00000015      0.00860687
+ 1         0.01537380     -0.00000000     -0.00426622
+ 2        -0.00516609      0.00929563     -0.00217029
+ 3        -0.00516617     -0.00929577     -0.00217036
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-     6   0   0   T    F  2.80D-02 0.00037887 0.00018821 0.00097715 0.00046003   -4.4302754 ----
+     6   0   0   T    F  2.80D-02 0.00037886 0.00018820 0.00097714 0.00046002   -4.4302754 ----
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -571,10 +565,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00010588 -0.00000000 -0.16367368
- 1   -1.77687145 -0.00000000  0.54493165
- 1    0.88848867 -1.53889872  0.54493928
- 1    0.88848867  1.53889872  0.54493928
+ 7       -0.00010588      0.00000000     -0.16367369
+ 1       -1.77687145     -0.00000000      0.54493165
+ 1        0.88848867     -1.53889872      0.54493928
+ 1        0.88848866      1.53889872      0.54493928
  ---------------------------------------
   
   Solvent             : h2o
@@ -586,7 +580,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -595,15 +588,15 @@
     2     -4.4867828 -0.132930E-03  0.119E+00   12.62       1.0  T
     3     -4.4868300 -0.472398E-04  0.113E-01   12.44       1.0  T
     4     -4.4868330 -0.297900E-05  0.356E-02   12.45       1.4  T
-    5     -4.4868331 -0.984743E-07  0.296E-03   12.45      16.9  T
-    6     -4.4868331 -0.215595E-09  0.938E-04   12.45      53.3  T
+    5     -4.4868331 -0.984744E-07  0.296E-03   12.45      16.9  T
+    6     -4.4868331 -0.215592E-09  0.938E-04   12.45      53.3  T
     7     -4.4868331 -0.359632E-10  0.519E-06   12.45    9643.1  T
-      SCC iter.                  ...        0 min,  0.002 sec
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815399942 Eh   ::
-          :: gradient norm               0.000085573133 Eh/α ::
-          :: HOMO-LUMO gap              12.445764941381 eV   ::
+          :: gradient norm               0.000085572230 Eh/α ::
+          :: HOMO-LUMO gap              12.445764946902 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -612,19 +605,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00006237  0.00000000  0.00000021
- 1     0.00003873 -0.00000000 -0.00001682
- 2     0.00001182 -0.00002482  0.00000831
- 3     0.00001182  0.00002482  0.00000831
+ 0        -0.00006237      0.00000000      0.00000021
+ 1         0.00003873     -0.00000000     -0.00001682
+ 2         0.00001182     -0.00002482      0.00000831
+ 3         0.00001182      0.00002482      0.00000831
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-     7   0   0   F    T  1.83D+01 0.00006237 0.00002470 0.00111359 0.00046003   -4.4308154 ++--
+     7   0   0   F    T  1.83D+01 0.00006237 0.00002470 0.00111357 0.00046002   -4.4308154 ++--
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -632,10 +625,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7    0.00100770 -0.00000000 -0.16372066
- 1   -1.77739379  0.00000000  0.54524668
- 1    0.88819304 -1.53830105  0.54480525
- 1    0.88819304  1.53830105  0.54480525
+ 7        0.00100769     -0.00000003     -0.16372065
+ 1       -1.77739378      0.00000000      0.54524667
+ 1        0.88819304     -1.53830104      0.54480525
+ 1        0.88819306      1.53830107      0.54480526
  ---------------------------------------
   
   Solvent             : h2o
@@ -647,7 +640,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -657,14 +649,14 @@
     3     -4.4868858 -0.483509E-04  0.125E-01   12.44       1.0  T
     4     -4.4868909 -0.511872E-05  0.377E-02   12.46       1.3  T
     5     -4.4868910 -0.864988E-07  0.326E-03   12.45      15.3  T
-    6     -4.4868910 -0.114141E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868910 -0.362368E-10  0.664E-06   12.45    7527.0  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4868910 -0.114140E-08  0.945E-04   12.45      52.9  T
+    7     -4.4868910 -0.362457E-10  0.664E-06   12.45    7527.0  T
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430814371285 Eh   ::
-          :: gradient norm               0.001407665728 Eh/α ::
-          :: HOMO-LUMO gap              12.451180343886 eV   ::
+          :: total energy               -4.430814371315 Eh   ::
+          :: gradient norm               0.001407645543 Eh/α ::
+          :: HOMO-LUMO gap              12.451180276917 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -673,19 +665,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0     0.00106573 -0.00000000  0.00007520
- 1    -0.00057721  0.00000000  0.00025808
- 2    -0.00024426  0.00036431 -0.00016664
- 3    -0.00024426 -0.00036431 -0.00016664
+ 0         0.00106571     -0.00000003      0.00007520
+ 1        -0.00057720      0.00000000      0.00025808
+ 2        -0.00024426      0.00036432     -0.00016665
+ 3        -0.00024424     -0.00036429     -0.00016663
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-     8   0   0   T    T  1.00D+00 0.00106573 0.00040636 0.00106573 0.00040636   -4.4308144 ----
+     8   0   0   T    T  1.00D+00 0.00106571 0.00040635 0.00106571 0.00040635   -4.4308144 ----
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -693,10 +685,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00117161  0.00000000 -0.16374888
- 1   -1.77629423 -0.00000000  0.54467357
- 1    0.88873292 -1.53926304  0.54510592
- 1    0.88873292  1.53926304  0.54510592
+ 7       -0.00117160      0.00000004     -0.16374888
+ 1       -1.77629424     -0.00000000      0.54467357
+ 1        0.88873293     -1.53926305      0.54510593
+ 1        0.88873291      1.53926301      0.54510591
  ---------------------------------------
   
   Solvent             : h2o
@@ -708,7 +700,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -719,13 +710,13 @@
     4     -4.4867999 -0.508586E-05  0.377E-02   12.45       1.3  T
     5     -4.4868000 -0.866260E-07  0.326E-03   12.44      15.4  T
     6     -4.4868000 -0.111704E-08  0.945E-04   12.44      52.9  T
-    7     -4.4868000 -0.362856E-10  0.669E-06   12.44    7470.7  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    7     -4.4868000 -0.362830E-10  0.669E-06   12.44    7470.8  T
+      SCC iter.                  ...        0 min,  0.021 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430814319189 Eh   ::
-          :: gradient norm               0.001453555644 Eh/α ::
-          :: HOMO-LUMO gap              12.443277591499 eV   ::
+          :: total energy               -4.430814319220 Eh   ::
+          :: gradient norm               0.001453534985 Eh/α ::
+          :: HOMO-LUMO gap              12.443277622645 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -734,19 +725,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00110824  0.00000000 -0.00005319
- 1     0.00064634 -0.00000000 -0.00027700
- 2     0.00023095 -0.00033625  0.00016510
- 3     0.00023095  0.00033625  0.00016510
+ 0        -0.00110822      0.00000004     -0.00005319
+ 1         0.00064634     -0.00000000     -0.00027700
+ 2         0.00023095     -0.00033626      0.00016510
+ 3         0.00023093      0.00033623      0.00016509
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-     9   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00053286 0.00020318   -4.4308143 ---+
+     9   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00053286 0.00020318   -4.4308143 ---+
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -754,10 +745,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00063875 -0.00000000 -0.16371128
- 1   -1.77658284 -0.00000000  0.54480261
- 1    0.88861079 -1.53908088  0.54502260
- 1    0.88861079  1.53908088  0.54502260
+ 7       -0.00063874      0.00000002     -0.16371128
+ 1       -1.77658284     -0.00000000      0.54480261
+ 1        0.88861080     -1.53908089      0.54502260
+ 1        0.88861079      1.53908087      0.54502260
  ---------------------------------------
   
   Solvent             : h2o
@@ -769,7 +760,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -779,14 +769,14 @@
     3     -4.4868114 -0.483629E-04  0.125E-01   12.43       1.0  T
     4     -4.4868165 -0.512525E-05  0.378E-02   12.45       1.3  T
     5     -4.4868166 -0.864885E-07  0.326E-03   12.44      15.3  T
-    6     -4.4868166 -0.114463E-08  0.946E-04   12.44      52.9  T
-    7     -4.4868166 -0.362856E-10  0.661E-06   12.44    7569.1  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4868166 -0.114464E-08  0.946E-04   12.44      52.9  T
+    7     -4.4868166 -0.362812E-10  0.661E-06   12.44    7569.1  T
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430815099908 Eh   ::
-          :: gradient norm               0.000768914913 Eh/α ::
-          :: HOMO-LUMO gap              12.444556106299 eV   ::
+          :: total energy               -4.430815099916 Eh   ::
+          :: gradient norm               0.000768904149 Eh/α ::
+          :: HOMO-LUMO gap              12.444556123635 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -795,19 +785,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00058492 -0.00000000 -0.00002686
- 1     0.00034207  0.00000000 -0.00014669
- 2     0.00012143 -0.00018070  0.00008677
- 3     0.00012143  0.00018070  0.00008677
+ 0        -0.00058491      0.00000002     -0.00002686
+ 1         0.00034206     -0.00000000     -0.00014668
+ 2         0.00012143     -0.00018071      0.00008678
+ 3         0.00012142      0.00018069      0.00008677
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    10   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00026643 0.00010159   -4.4308151 --++
+    10   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00026643 0.00010159   -4.4308151 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -815,10 +805,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00037232 -0.00000000 -0.16369248
- 1   -1.77672714 -0.00000000  0.54486713
- 1    0.88854973 -1.53898980  0.54498094
- 1    0.88854973  1.53898980  0.54498094
+ 7       -0.00037231      0.00000001     -0.16369249
+ 1       -1.77672715     -0.00000000      0.54486713
+ 1        0.88854973     -1.53898980      0.54498094
+ 1        0.88854973      1.53898980      0.54498094
  ---------------------------------------
   
   Solvent             : h2o
@@ -830,7 +820,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -840,14 +829,14 @@
     3     -4.4868197 -0.483611E-04  0.125E-01   12.43       1.0  T
     4     -4.4868248 -0.511894E-05  0.378E-02   12.45       1.3  T
     5     -4.4868249 -0.865214E-07  0.326E-03   12.44      15.3  T
-    6     -4.4868249 -0.114051E-08  0.946E-04   12.45      52.9  T
-    7     -4.4868249 -0.362794E-10  0.659E-06   12.45    7583.4  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4868249 -0.114050E-08  0.946E-04   12.45      52.9  T
+    7     -4.4868249 -0.362821E-10  0.659E-06   12.45    7583.4  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430815309979 Eh   ::
-          :: gradient norm               0.000426950218 Eh/α ::
-          :: HOMO-LUMO gap              12.445169327629 eV   ::
+          :: total energy               -4.430815309982 Eh   ::
+          :: gradient norm               0.000426944391 Eh/α ::
+          :: HOMO-LUMO gap              12.445169338813 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -856,19 +845,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00032355  0.00000000 -0.00001342
- 1     0.00019028  0.00000000 -0.00008170
- 2     0.00006663 -0.00010280  0.00004756
- 3     0.00006663  0.00010280  0.00004756
+ 0        -0.00032354      0.00000001     -0.00001342
+ 1         0.00019028     -0.00000000     -0.00008170
+ 2         0.00006664     -0.00010281      0.00004756
+ 3         0.00006663      0.00010280      0.00004756
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    11   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00013322 0.00005079   -4.4308153 --++
+    11   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00013321 0.00005079   -4.4308153 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -876,10 +865,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00023910 -0.00000000 -0.16368308
- 1   -1.77679930 -0.00000000  0.54489939
- 1    0.88851920 -1.53894426  0.54496011
- 1    0.88851920  1.53894426  0.54496011
+ 7       -0.00023910      0.00000001     -0.16368309
+ 1       -1.77679930     -0.00000000      0.54489939
+ 1        0.88851920     -1.53894426      0.54496011
+ 1        0.88851920      1.53894426      0.54496011
  ---------------------------------------
   
   Solvent             : h2o
@@ -891,7 +880,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -901,14 +889,14 @@
     3     -4.4868238 -0.483602E-04  0.125E-01   12.43       1.0  T
     4     -4.4868289 -0.511579E-05  0.378E-02   12.45       1.3  T
     5     -4.4868290 -0.865378E-07  0.326E-03   12.45      15.3  T
-    6     -4.4868290 -0.113844E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868290 -0.362848E-10  0.659E-06   12.45    7589.0  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4868290 -0.113845E-08  0.945E-04   12.45      52.9  T
+    7     -4.4868290 -0.362803E-10  0.659E-06   12.45    7589.0  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430815369973 Eh   ::
-          :: gradient norm               0.000256095196 Eh/α ::
-          :: HOMO-LUMO gap              12.445469400431 eV   ::
+          :: total energy               -4.430815369974 Eh   ::
+          :: gradient norm               0.000256091834 Eh/α ::
+          :: HOMO-LUMO gap              12.445469408710 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -917,19 +905,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00019294 -0.00000000 -0.00000663
- 1     0.00011448 -0.00000000 -0.00004925
- 2     0.00003923 -0.00006382  0.00002794
- 3     0.00003923  0.00006382  0.00002794
+ 0        -0.00019293      0.00000001     -0.00000663
+ 1         0.00011448     -0.00000000     -0.00004925
+ 2         0.00003923     -0.00006383      0.00002794
+ 3         0.00003923      0.00006382      0.00002794
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    12   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00006661 0.00002540   -4.4308154 --++
+    12   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00006661 0.00002540   -4.4308154 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -937,10 +925,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00017249 -0.00000000 -0.16367838
- 1   -1.77683537 -0.00000000  0.54491552
- 1    0.88850393 -1.53892149  0.54494969
- 1    0.88850393  1.53892149  0.54494969
+ 7       -0.00017249      0.00000000     -0.16367839
+ 1       -1.77683537     -0.00000000      0.54491552
+ 1        0.88850393     -1.53892149      0.54494970
+ 1        0.88850393      1.53892149      0.54494969
  ---------------------------------------
   
   Solvent             : h2o
@@ -952,7 +940,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -962,14 +949,14 @@
     3     -4.4868259 -0.483598E-04  0.125E-01   12.43       1.0  T
     4     -4.4868310 -0.511422E-05  0.378E-02   12.45       1.3  T
     5     -4.4868311 -0.865461E-07  0.326E-03   12.45      15.3  T
-    6     -4.4868311 -0.113743E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868311 -0.362714E-10  0.659E-06   12.45    7591.5  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4868311 -0.113742E-08  0.945E-04   12.45      52.9  T
+    7     -4.4868311 -0.362821E-10  0.659E-06   12.45    7591.5  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
-          :: total energy               -4.430815388713 Eh   ::
-          :: gradient norm               0.000170740920 Eh/α ::
-          :: HOMO-LUMO gap              12.445617798554 eV   ::
+          :: total energy               -4.430815388714 Eh   ::
+          :: gradient norm               0.000170738789 Eh/α ::
+          :: HOMO-LUMO gap              12.445617805431 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -978,19 +965,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00012765 -0.00000000 -0.00000322
- 1     0.00007660  0.00000000 -0.00003303
- 2     0.00002553 -0.00004433  0.00001813
- 3     0.00002553  0.00004433  0.00001813
+ 0        -0.00012765      0.00000000     -0.00000322
+ 1         0.00007660     -0.00000000     -0.00003303
+ 2         0.00002553     -0.00004433      0.00001813
+ 3         0.00002552      0.00004432      0.00001812
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    13   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00003330 0.00001270   -4.4308154 --++
+    13   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00003330 0.00001270   -4.4308154 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -998,10 +985,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00013919 -0.00000000 -0.16367603
- 1   -1.77685341 -0.00000000  0.54492359
- 1    0.88849630 -1.53891011  0.54494449
- 1    0.88849630  1.53891011  0.54494449
+ 7       -0.00013919      0.00000000     -0.16367604
+ 1       -1.77685341     -0.00000000      0.54492359
+ 1        0.88849630     -1.53891011      0.54494449
+ 1        0.88849630      1.53891011      0.54494449
  ---------------------------------------
   
   Solvent             : h2o
@@ -1013,7 +1000,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1024,13 +1010,13 @@
     4     -4.4868320 -0.511344E-05  0.378E-02   12.45       1.3  T
     5     -4.4868321 -0.865502E-07  0.326E-03   12.45      15.3  T
     6     -4.4868321 -0.113691E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868321 -0.362750E-10  0.659E-06   12.45    7592.6  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    7     -4.4868321 -0.362830E-10  0.659E-06   12.45    7592.6  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815395270 Eh   ::
-          :: gradient norm               0.000128113142 Eh/α ::
-          :: HOMO-LUMO gap              12.445691587561 eV   ::
+          :: gradient norm               0.000128111626 Eh/α ::
+          :: HOMO-LUMO gap              12.445691593762 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1039,19 +1025,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00009501 -0.00000000 -0.00000151
- 1     0.00005766  0.00000000 -0.00002493
- 2     0.00001867 -0.00003457  0.00001322
- 3     0.00001867  0.00003457  0.00001322
+ 0        -0.00009501      0.00000000     -0.00000151
+ 1         0.00005766     -0.00000000     -0.00002493
+ 2         0.00001867     -0.00003458      0.00001322
+ 3         0.00001867      0.00003457      0.00001322
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    14   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00001665 0.00000635   -4.4308154 --++
+    14   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00001665 0.00000635   -4.4308154 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -1059,10 +1045,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00012254 -0.00000000 -0.16367486
- 1   -1.77686243 -0.00000000  0.54492762
- 1    0.88849248 -1.53890442  0.54494188
- 1    0.88849248  1.53890442  0.54494188
+ 7       -0.00012254      0.00000000     -0.16367486
+ 1       -1.77686243     -0.00000000      0.54492762
+ 1        0.88849248     -1.53890442      0.54494188
+ 1        0.88849248      1.53890441      0.54494188
  ---------------------------------------
   
   Solvent             : h2o
@@ -1074,7 +1060,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1085,13 +1070,13 @@
     4     -4.4868325 -0.511304E-05  0.378E-02   12.45       1.3  T
     5     -4.4868326 -0.865522E-07  0.326E-03   12.45      15.3  T
     6     -4.4868326 -0.113665E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868326 -0.362785E-10  0.658E-06   12.45    7593.1  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    7     -4.4868326 -0.362768E-10  0.658E-06   12.45    7593.1  T
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815397845 Eh   ::
-          :: gradient norm               0.000106827090 Eh/α ::
-          :: HOMO-LUMO gap              12.445728379493 eV   ::
+          :: gradient norm               0.000106825881 Eh/α ::
+          :: HOMO-LUMO gap              12.445728385360 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1100,19 +1085,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00007869 -0.00000000 -0.00000065
- 1     0.00004820 -0.00000000 -0.00002088
- 2     0.00001525 -0.00002970  0.00001076
- 3     0.00001525  0.00002970  0.00001076
+ 0        -0.00007869      0.00000000     -0.00000065
+ 1         0.00004820     -0.00000000     -0.00002088
+ 2         0.00001525     -0.00002970      0.00001076
+ 3         0.00001525      0.00002970      0.00001076
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    15   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00000833 0.00000317   -4.4308154 --++
+    15   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00000833 0.00000317   -4.4308154 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -1120,10 +1105,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00011421 -0.00000000 -0.16367427
- 1   -1.77686694 -0.00000000  0.54492964
- 1    0.88849057 -1.53890157  0.54494058
- 1    0.88849057  1.53890157  0.54494058
+ 7       -0.00011421      0.00000000     -0.16367427
+ 1       -1.77686694     -0.00000000      0.54492964
+ 1        0.88849057     -1.53890157      0.54494058
+ 1        0.88849057      1.53890157      0.54494058
  ---------------------------------------
   
   Solvent             : h2o
@@ -1135,7 +1120,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1145,14 +1129,14 @@
     3     -4.4868277 -0.483594E-04  0.125E-01   12.43       1.0  T
     4     -4.4868328 -0.511285E-05  0.378E-02   12.45       1.3  T
     5     -4.4868329 -0.865533E-07  0.326E-03   12.45      15.3  T
-    6     -4.4868329 -0.113653E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868329 -0.362732E-10  0.658E-06   12.45    7593.4  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4868329 -0.113652E-08  0.945E-04   12.45      52.9  T
+    7     -4.4868329 -0.362812E-10  0.658E-06   12.45    7593.4  T
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815398956 Eh   ::
-          :: gradient norm               0.000096196172 Eh/α ::
-          :: HOMO-LUMO gap              12.445746749820 eV   ::
+          :: gradient norm               0.000096195116 Eh/α ::
+          :: HOMO-LUMO gap              12.445746755494 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1161,19 +1145,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00007053 -0.00000000 -0.00000022
- 1     0.00004346  0.00000000 -0.00001885
- 2     0.00001353 -0.00002726  0.00000954
- 3     0.00001353  0.00002726  0.00000954
+ 0        -0.00007053      0.00000000     -0.00000022
+ 1         0.00004346     -0.00000000     -0.00001885
+ 2         0.00001353     -0.00002726      0.00000954
+ 3         0.00001353      0.00002726      0.00000954
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    16   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00000416 0.00000159   -4.4308154 --++
+    16   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00000416 0.00000159   -4.4308154 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -1181,10 +1165,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00011005 -0.00000000 -0.16367398
- 1   -1.77686919 -0.00000000  0.54493064
- 1    0.88848962 -1.53890015  0.54493993
- 1    0.88848962  1.53890015  0.54493993
+ 7       -0.00011005      0.00000000     -0.16367398
+ 1       -1.77686919     -0.00000000      0.54493064
+ 1        0.88848962     -1.53890015      0.54493993
+ 1        0.88848962      1.53890014      0.54493993
  ---------------------------------------
   
   Solvent             : h2o
@@ -1196,7 +1180,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1208,12 +1191,12 @@
     5     -4.4868330 -0.865538E-07  0.326E-03   12.45      15.3  T
     6     -4.4868330 -0.113646E-08  0.945E-04   12.45      52.9  T
     7     -4.4868330 -0.362794E-10  0.658E-06   12.45    7593.5  T
-      SCC iter.                  ...        0 min,  0.002 sec
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815399468 Eh   ::
-          :: gradient norm               0.000090884947 Eh/α ::
-          :: HOMO-LUMO gap              12.445755928563 eV   ::
+          :: gradient norm               0.000090883969 Eh/α ::
+          :: HOMO-LUMO gap              12.445755934161 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1222,19 +1205,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00006645  0.00000000 -0.00000001
- 1     0.00004110  0.00000000 -0.00001784
- 2     0.00001268 -0.00002604  0.00000892
- 3     0.00001268  0.00002604  0.00000892
+ 0        -0.00006645      0.00000000     -0.00000001
+ 1         0.00004110     -0.00000000     -0.00001784
+ 2         0.00001268     -0.00002604      0.00000892
+ 3         0.00001268      0.00002604      0.00000892
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    17   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00000208 0.00000079   -4.4308154 --++
+    17   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00000208 0.00000079   -4.4308154 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -1242,10 +1225,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00010797 -0.00000000 -0.16367383
- 1   -1.77687032 -0.00000000  0.54493115
- 1    0.88848914 -1.53889943  0.54493961
- 1    0.88848914  1.53889943  0.54493961
+ 7       -0.00010797      0.00000000     -0.16367383
+ 1       -1.77687032     -0.00000000      0.54493115
+ 1        0.88848914     -1.53889944      0.54493961
+ 1        0.88848914      1.53889943      0.54493960
  ---------------------------------------
   
   Solvent             : h2o
@@ -1257,7 +1240,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1268,13 +1250,13 @@
     4     -4.4868330 -0.511270E-05  0.378E-02   12.45       1.3  T
     5     -4.4868331 -0.865540E-07  0.326E-03   12.45      15.3  T
     6     -4.4868331 -0.113643E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868331 -0.362785E-10  0.658E-06   12.45    7593.6  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    7     -4.4868331 -0.362794E-10  0.658E-06   12.45    7593.6  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815399713 Eh   ::
-          :: gradient norm               0.000088230613 Eh/α ::
-          :: HOMO-LUMO gap              12.445760516329 eV   ::
+          :: gradient norm               0.000088229672 Eh/α ::
+          :: HOMO-LUMO gap              12.445760521891 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1283,19 +1265,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00006441 -0.00000000  0.00000010
- 1     0.00003991  0.00000000 -0.00001733
- 2     0.00001225 -0.00002543  0.00000862
- 3     0.00001225  0.00002543  0.00000862
+ 0        -0.00006441      0.00000000      0.00000010
+ 1         0.00003991     -0.00000000     -0.00001733
+ 2         0.00001225     -0.00002543      0.00000862
+ 3         0.00001225      0.00002543      0.00000862
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    18   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00000104 0.00000040   -4.4308154 --++
+    18   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00000104 0.00000040   -4.4308154 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -1303,10 +1285,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00010693 -0.00000000 -0.16367376
- 1   -1.77687088 -0.00000000  0.54493140
- 1    0.88848890 -1.53889908  0.54493944
- 1    0.88848890  1.53889908  0.54493944
+ 7       -0.00010692      0.00000000     -0.16367376
+ 1       -1.77687088     -0.00000000      0.54493140
+ 1        0.88848890     -1.53889908      0.54493944
+ 1        0.88848890      1.53889908      0.54493944
  ---------------------------------------
   
   Solvent             : h2o
@@ -1318,7 +1300,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1329,13 +1310,13 @@
     4     -4.4868330 -0.511267E-05  0.378E-02   12.45       1.3  T
     5     -4.4868331 -0.865542E-07  0.326E-03   12.45      15.3  T
     6     -4.4868331 -0.113641E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868331 -0.362750E-10  0.658E-06   12.45    7593.6  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    7     -4.4868331 -0.362812E-10  0.658E-06   12.45    7593.6  T
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815399833 Eh   ::
-          :: gradient norm               0.000086903799 Eh/α ::
-          :: HOMO-LUMO gap              12.445762809812 eV   ::
+          :: gradient norm               0.000086902877 Eh/α ::
+          :: HOMO-LUMO gap              12.445762815353 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1344,19 +1325,19 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00006339  0.00000000  0.00000015
- 1     0.00003932  0.00000000 -0.00001708
- 2     0.00001203 -0.00002513  0.00000846
- 3     0.00001203  0.00002513  0.00000846
+ 0        -0.00006339      0.00000000      0.00000015
+ 1         0.00003932     -0.00000000     -0.00001708
+ 2         0.00001204     -0.00002513      0.00000846
+ 3         0.00001203      0.00002513      0.00000846
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
-    19   0   0   T    F  5.00D-01 0.00106573 0.00040636 0.00000052 0.00000020   -4.4308154 --++
+    19   0   0   T    F  5.00D-01 0.00106571 0.00040635 0.00000052 0.00000020   -4.4308154 --++
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -1364,10 +1345,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00010640 -0.00000000 -0.16367372
- 1   -1.77687116 -0.00000000  0.54493153
- 1    0.88848878 -1.53889890  0.54493936
- 1    0.88848878  1.53889890  0.54493936
+ 7       -0.00010640      0.00000000     -0.16367372
+ 1       -1.77687116     -0.00000000      0.54493153
+ 1        0.88848879     -1.53889890      0.54493936
+ 1        0.88848878      1.53889890      0.54493936
  ---------------------------------------
   
   Solvent             : h2o
@@ -1379,7 +1360,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1390,13 +1370,13 @@
     4     -4.4868330 -0.511266E-05  0.378E-02   12.45       1.3  T
     5     -4.4868331 -0.865542E-07  0.326E-03   12.45      15.3  T
     6     -4.4868331 -0.113640E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868331 -0.362768E-10  0.658E-06   12.45    7593.6  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    7     -4.4868331 -0.362803E-10  0.658E-06   12.45    7593.6  T
+      SCC iter.                  ...        0 min,  0.010 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815399892 Eh   ::
-          :: gradient norm               0.000086240484 Eh/α ::
-          :: HOMO-LUMO gap              12.445763956459 eV   ::
+          :: gradient norm               0.000086239572 Eh/α ::
+          :: HOMO-LUMO gap              12.445763961981 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1405,10 +1385,10 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00006288  0.00000000  0.00000018
- 1     0.00003903 -0.00000000 -0.00001695
- 2     0.00001193 -0.00002498  0.00000839
- 3     0.00001193  0.00002498  0.00000839
+ 0        -0.00006288      0.00000000      0.00000018
+ 1         0.00003903     -0.00000000     -0.00001695
+ 2         0.00001193     -0.00002498      0.00000839
+ 3         0.00001193      0.00002497      0.00000839
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
@@ -1417,7 +1397,7 @@
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -1425,10 +1405,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00010793 -0.00000000 -0.16367844
- 1   -1.77687531 -0.00000000  0.54493288
- 1    0.88849162 -1.53889594  0.54494105
- 1    0.88849162  1.53889594  0.54494105
+ 7       -0.00010793      0.00000000     -0.16367845
+ 1       -1.77687531     -0.00000000      0.54493288
+ 1        0.88849162     -1.53889594      0.54494105
+ 1        0.88849162      1.53889594      0.54494104
  ---------------------------------------
   
   Solvent             : h2o
@@ -1440,7 +1420,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1450,14 +1429,14 @@
     3     -4.4868272 -0.483588E-04  0.125E-01   12.43       1.0  T
     4     -4.4868323 -0.511247E-05  0.378E-02   12.45       1.3  T
     5     -4.4868324 -0.865531E-07  0.326E-03   12.45      15.3  T
-    6     -4.4868324 -0.113619E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868324 -0.362732E-10  0.658E-06   12.45    7593.8  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    6     -4.4868324 -0.113620E-08  0.945E-04   12.45      52.9  T
+    7     -4.4868324 -0.362741E-10  0.658E-06   12.45    7593.8  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815400024 Eh   ::
-          :: gradient norm               0.000085297601 Eh/α ::
-          :: HOMO-LUMO gap              12.445736955332 eV   ::
+          :: gradient norm               0.000085296715 Eh/α ::
+          :: HOMO-LUMO gap              12.445736962597 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1466,25 +1445,25 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00006234 -0.00000000 -0.00000146
- 1     0.00003719  0.00000000 -0.00001626
- 2     0.00001258 -0.00002516  0.00000886
- 3     0.00001258  0.00002516  0.00000886
+ 0        -0.00006234      0.00000000     -0.00000146
+ 1         0.00003719     -0.00000000     -0.00001626
+ 2         0.00001258     -0.00002516      0.00000886
+ 3         0.00001258      0.00002516      0.00000886
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
     21   0   0   F    T  1.00D+00 0.00006234 0.00002462 0.00006240 0.00002463   -4.4308154 ====
  Running external command "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R"
-         input file       "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn"
-         output file      "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu"
-         message file     "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs"
-         fchk file        "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC"
-         mat. el file     "/home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+         input file       "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn"
+         output file      "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu"
+         message file     "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs"
+         fchk file        "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC"
+         mat. el file     "/home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
 
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
  Output from external command:
- "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EIn /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EOu /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EMs /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EFC /home/pbeaujea/g2xtb_interface/tmp/Gau-16187.EUF"
+ "/home/pbeaujea/g2xtb_interface/interface.py -s h2o R /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EIn /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EOu /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EMs /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EFC /home/pbeaujea/g2xtb_interface/examples/Gau-18618.EUF"
  running g2xtb_interface interface.py
   
  Input geometry (charge=0)
@@ -1492,10 +1471,10 @@
                 Coordinates (Bohr)
  Z         X           Y           Z
  ---------------------------------------
- 7   -0.00010793 -0.00000000 -0.16367844
- 1   -1.77687531 -0.00000000  0.54493288
- 1    0.88849162 -1.53889594  0.54494105
- 1    0.88849162  1.53889594  0.54494105
+ 7       -0.00010793      0.00000000     -0.16367845
+ 1       -1.77687531     -0.00000000      0.54493288
+ 1        0.88849162     -1.53889594      0.54494105
+ 1        0.88849162      1.53889594      0.54494104
  ---------------------------------------
   
   Solvent             : h2o
@@ -1507,7 +1486,6 @@
   mass                       :    18.0000000000000
   surface tension            :    15.5689454083859
   probe radius               :   0.975313790000000
-  vdW radii scaling          :    1.00000000000000
   Gshift (Eh)                :   1.857443126794793E-003
   c1                         :    1.55243817000000
   soset                      :   0.130326360000000
@@ -1518,13 +1496,13 @@
     4     -4.4868323 -0.511291E-05  0.378E-02   12.45       1.3  T
     5     -4.4868324 -0.865517E-07  0.326E-03   12.45      15.3  T
     6     -4.4868324 -0.113653E-08  0.945E-04   12.45      52.9  T
-    7     -4.4868324 -0.362776E-10  0.658E-06   12.45    7593.5  T
-      SCC iter.                  ...        0 min,  0.002 sec
+    7     -4.4868324 -0.362821E-10  0.658E-06   12.45    7593.5  T
+      SCC iter.                  ...        0 min,  0.009 sec
       gradient                   ...        0 min,  0.000 sec
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
           :: total energy               -4.430815400024 Eh   ::
-          :: gradient norm               0.000085297601 Eh/α ::
-          :: HOMO-LUMO gap              12.445736955359 eV   ::
+          :: gradient norm               0.000085296715 Eh/α ::
+          :: HOMO-LUMO gap              12.445736962624 eV   ::
           :::::::::::::::::::::::::::::::::::::::::::::::::::::
   
   
@@ -1533,33 +1511,33 @@
               Forces (Hartree/Bohr)
             X           Y           Z
  ----------------------------------------
- 0    -0.00006234  0.00000000 -0.00000146
- 1     0.00003719 -0.00000000 -0.00001626
- 2     0.00001258 -0.00002516  0.00000886
- 3     0.00001258  0.00002516  0.00000886
+ 0        -0.00006234      0.00000000     -0.00000146
+ 1         0.00003719     -0.00000000     -0.00001626
+ 2         0.00001258     -0.00002516      0.00000886
+ 3         0.00001258      0.00002516      0.00000886
  ----------------------------------------
   
  ExternalExternalExternalExternalExternalExternalExternalExternalExternalExternal
 
- Recovered energy= -4.43081540002     dipole=      0.000025627946     -0.000000000000      0.744113199681
+ Recovered energy= -4.43081540002     dipole=      0.000025627797     -0.000000000465      0.744113200910
  Energy=    -4.43081540     NIter=   0.
  Dipole moment=       0.000026      -0.000000       0.744113
- Leave Link  402 at Wed Oct  9 11:09:03 2019, MaxMem=   104857600 cpu:               0.2 elap:              21.9
+ Leave Link  402 at Thu Dec 19 14:00:50 2019, MaxMem=   104857600 cpu:               0.1 elap:              28.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l601.exe)
- Leave Link  601 at Wed Oct  9 11:09:03 2019, MaxMem=   104857600 cpu:               0.1 elap:               0.1
+ Leave Link  601 at Thu Dec 19 14:00:50 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l716.exe)
- Dipole        = 2.56279464D-05-1.77635684D-15 7.44113200D-01
+ Dipole        = 2.56277973D-05-4.64794675D-10 7.44113201D-01
  -------------------------------------------------------------------
  Center     Atomic                   Forces (Hartrees/Bohr)
  Number     Number              X              Y              Z
  -------------------------------------------------------------------
-      1        7           0.000062343   -0.000000000    0.000001456
+      1        7           0.000062343   -0.000000002    0.000001456
       2        1          -0.000037186    0.000000000    0.000016264
       3        1          -0.000012579    0.000025161   -0.000008860
-      4        1          -0.000012579   -0.000025161   -0.000008860
+      4        1          -0.000012578   -0.000025159   -0.000008859
  -------------------------------------------------------------------
  Cartesian Forces:  Max     0.000062343 RMS     0.000024623
- Leave Link  716 at Wed Oct  9 11:09:04 2019, MaxMem=   104857600 cpu:               0.2 elap:               0.2
+ Leave Link  716 at Thu Dec 19 14:00:50 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
@@ -1576,7 +1554,7 @@
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     X1       -0.00011   0.00006   0.00000   0.00006   0.00006  -0.00005
-    Y1       -0.00000  -0.00000   0.00000  -0.00000  -0.00000  -0.00000
+    Y1        0.00000  -0.00000   0.00000  -0.00000  -0.00000  -0.00000
     Z1       -0.16368   0.00000   0.00000   0.00000   0.00000  -0.16368
     X2       -1.77688  -0.00004   0.00000  -0.00004  -0.00004  -1.77691
     Y2       -0.00000   0.00000   0.00000   0.00000   0.00000  -0.00000
@@ -1592,20 +1570,20 @@
  RMS     Force            0.000025     0.000300     YES
  Maximum Displacement     0.000062     0.001800     YES
  RMS     Displacement     0.000025     0.001200     YES
- Predicted change in Energy=-3.637840D-09
+ Predicted change in Energy=-3.637765D-09
  Optimization completed.
     -- Stationary point found.
  Largest change from initial coordinates is atom    1       0.023 Angstoms.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Wed Oct  9 11:09:04 2019, MaxMem=   104857600 cpu:               0.1 elap:               0.2
+ Leave Link  103 at Thu Dec 19 14:00:50 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l202.exe)
                           Input orientation:                          
  ---------------------------------------------------------------------
  Center     Atomic      Atomic             Coordinates (Angstroms)
  Number     Number       Type             X           Y           Z
  ---------------------------------------------------------------------
-      1          7           0       -0.000057   -0.000000   -0.086615
+      1          7           0       -0.000057    0.000000   -0.086615
       2          1           0       -0.940282   -0.000000    0.288366
       3          1           0        0.470170   -0.814349    0.288370
       4          1           0        0.470170    0.814349    0.288370
@@ -1618,23 +1596,26 @@
      4  H    1.012369   1.628661   1.628697   0.000000
  Symmetry turned off by external request.
  Stoichiometry    H3N
- Framework group  CS[SG(HN),X(H2)]
- Deg. of freedom     4
- Full point group                 CS      NOp   2
- Rotational constants (GHZ):         299.7018532         299.6877687         189.0445510
- Leave Link  202 at Wed Oct  9 11:09:04 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
+ Framework group  C1[X(H3N)]
+ Deg. of freedom     6
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):         299.7018530         299.6877686         189.0445511
+ Leave Link  202 at Thu Dec 19 14:00:50 2019, MaxMem=   104857600 cpu:               0.0 elap:               0.0
  (Enter /opt/sw/arch/easybuild/sticky_20170712/software/Gaussian/16_A03-PGI-16.5/g16/l9999.exe)
  1\1\GINC-HERCULES\FOpt\RExternal='/home/pbeaujea/g2xtb_interface/inter
- face.py -s h2o'\ZDO\H3N1\PBEAUJEA\09-Oct-2019\0\\#p opt external="/hom
+ face.py -s h2o'\ZDO\H3N1\PBEAUJEA\19-Dec-2019\0\\#p opt external="/hom
  e/pbeaujea/g2xtb_interface/interface.py -s h2o" nosymmetry\\Title\\0,1
- \N,-0.0000571149,0.,-0.0866149026\H,-0.9402819193,0.,0.2883660617\H,0.
- 4701695171,-0.8143486634,0.2883703825\H,0.4701695171,0.8143486634,0.28
- 83703825\\Version=ES64L-G16RevA.03\HF=-4.4308154\RMSD=0.000e+00\RMSF=2
- .462e-05\Dipole=0.0000256,0.,0.7441132\PG=CS [SG(H1N1),X(H2)]\\@
+ \N,-0.0000571145,0.000000001,-0.0866149032\H,-0.9402819192,-0.00000000
+ 01,0.2883660621\H,0.4701695171,-0.8143486635,0.2883703831\H,0.47016951
+ 66,0.8143486626,0.288370382\\Version=ES64L-G16RevA.03\HF=-4.4308154\RM
+ SD=0.000e+00\RMSF=2.462e-05\Dipole=0.0000256,0.,0.7441132\PG=C01 [X(H3
+ N1)]\\@
 
 
- COMMON SENSE IS NOT SO COMMON.   -- VOLTAIRE
- Job cpu time:       0 days  0 hours  0 minutes  1.7 seconds.
- Elapsed time:       0 days  0 hours  0 minutes 23.5 seconds.
+ TO DRY ONE'S EYES AND LAUGH AT A FALL
+ AND BAFFLED, GET UP AND BEGIN AGAIN.
+           R. BROWNING
+ Job cpu time:       0 days  0 hours  0 minutes  0.4 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes 28.3 seconds.
  File lengths (MBytes):  RWF=      5 Int=      0 D2E=      0 Chk=      1 Scr=      1
- Normal termination of Gaussian 16 at Wed Oct  9 11:09:04 2019.
+ Normal termination of Gaussian 16 at Thu Dec 19 14:00:51 2019.

@@ -7,9 +7,15 @@ It only perform calculation with the GFN2 parametrization.
 
 ## Installation
 
-1. Be sure to have a copy of [xTB](https://github.com/grimme-lab/xtb/) (in version 6.2) and Gaussian (tested with Gaussian 09 and 16). You will also need MKL (check with your system administrator, but version >= 2017 is required).
-1. Clone this repository
-2. Install the requirements: `numpy` and `fortranformat`, for example with pip: `pip3 install [--user] numpy fortranformat`. 
+1. Be sure to have a copy of [xTB](https://github.com/grimme-lab/xtb/) (in version 6.2.2) and Gaussian (this was tested with Gaussian 09 and 16). You will also need MKL (check with your system administrator, but version >= 2017 is required).
+1. Clone this repository.
+2. Install the requirements: `numpy`, `fortranformat` and the [official `xtb` interface](https://github.com/grimme-lab/xtb/tree/master/python), for example with pip: 
+
+   ```bash
+   pip3 install --user numpy fortranformat
+   ```
+   
+   The `--user` option is mandatory if you are not a system administrator.
 
 ## Usage
 
@@ -18,10 +24,8 @@ Before running a calculation (so, in your job script if you use a cluster), make
 You also need to include MKL (check with you system administrator) and xTB in `$LD_LIBRARY_PATH`: for the later, use
 
 ```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:</path/to/you/xtb/directory>/lib/
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:</path/to/you/xtb/install/directory>/lib64/
 ```
-
-(see the [previous python xTB interface documentation](https://github.com/grimme-lab/xtb/blob/5258d7ae4a7ad9ad9ead17c652e1408f8f08b05c/python/xtb.py) for more information, work is in progress to use the latest one).
 
 Then, in the gaussian input, use
 
@@ -52,7 +56,7 @@ It is also possible to use `External` in ONIOM, see the "Examples" section of th
 
 ```text
 #p opt=(nomicro,cartesian)
-oniom(m06/6-311+g(d):external="/home/pbeaujea/g2xtb_interface/interface.py")
+oniom(m06/6-311+g(d):external="/path/to/g2xtb_interface/interface.py")
 ```
 
 The `opt=nomicro` is currently mandatory (since the interface does not [yet?] communicates the charges to Gaussian).
@@ -64,7 +68,7 @@ See [the examples](./examples/) for some outputs.
 
 For xTB:
 
-+ [Current Python xTB interface](https://github.com/grimme-lab/xtb/blob/master/python/xtb.py).
++ [Current Python xTB interface](https://github.com/grimme-lab/xtb/blob/master/python/).
 + [xTB API documentation](https://xtb-docs.readthedocs.io/en/latest/dev_interface.html).
 
 For Gaussian:
