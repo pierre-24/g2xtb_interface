@@ -7,7 +7,8 @@ import tempfile
 
 
 import g2xtb_interface
-from g2xtb_interface import gaussian_interface, interface as xtb
+from g2xtb_interface import gaussian_interface
+from xtb import interface as xtb_interface
 
 
 def main(prog_args):
@@ -47,7 +48,7 @@ def main(prog_args):
 
         try:
             fd, path = tempfile.mkstemp()
-            lib = xtb.XTBLibrary()
+            lib = xtb_interface.XTBLibrary()
             
             output = lib.GFN2Calculation(
                 parameters['number_of_atoms'],

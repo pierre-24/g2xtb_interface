@@ -19,13 +19,20 @@ It only perform calculation with the GFN2 parametrization.
 
 ## Usage
 
-Before running a calculation (so, in your job script if you use a cluster), make sure that you have python 3 in the `$PATH` (if you use a virtualenv or pipenv, make sure you `source` it).
+Before running a calculation (so, in your job script if you use a job manager), 
 
-You also need to include MKL (check with you system administrator) and the directory where `libxtb.so` is in `$LD_LIBRARY_PATH`: for the later, use
+1. Make sure that you have python 3 in the `$PATH` (if you use a virtualenv or pipenv, make sure you `source` it).
+2. You also need to have MKL (check with you system administrator).
+3. Then, provide the path to the directory where `libxtb.so` is in `$LD_LIBRARY_PATH`:
+ 
+   ```bash
+   export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/you/xtb/install/directory/lib64/
+   ```
+4. You finally need to provide the location to [the `python` folder of `xtb`](https://github.com/grimme-lab/xtb/blob/master/python/), which contains the interface:
 
-```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/you/xtb/install/directory/lib64/
-```
+   ```bash
+   export PYTHONPATH=$PYTHONPATH:/path/to/xtb/python
+   ```
 
 Then, in the gaussian input, use
 
